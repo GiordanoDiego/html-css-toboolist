@@ -9,9 +9,11 @@ ul, ol{
     margin-left: 17px;
     list-style: none; /*tolgo lo stile e i pallini dalla lista*/
 }
+li{
+    margin-top: 10px;
+}
 
 /* GENERALE */
-
 
 /* HEADER */
 
@@ -39,8 +41,84 @@ header h1, header img{
     height: 100vh;
 }
 
-#task_container{
+.container{
     background-color: white;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.container_buttom{
+    margin-bottom: 3px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.add{
+    background-color: black;
+    border-radius: 5px;
+    padding: 3px;
+    color: white;
+}
+
+.task{
+    background-color: #45ABEB;
+}
+
+.section{
+    background-color: white;
+    color: lightgrey;
+    border: 1px solid lightgray;
+
+}
+
+.circle{
+    display: inline-block; 
+    /*rendo inline block per modificare l'altezza e larghezza cosa impossibile se un elemento è inline come in questo caso lo span*/
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px; /*deifnisco lìaltezza per centrarlo perfettamente*/ 
+}
+
+.done{
+    color: green;
+    border-color: green;
+}
+
+.un_done{
+    color: red;
+    border-color: red;
+}
+
+.tag_setting{
+    background-color: #45ABEB;
+    border-radius: 5px;
+    padding: 3px;
+    color: white;
+}
+
+/*colori etichette tag*/
+.editorial{
+    background-color: #45ABEB; 
+}
+
+.q1_goals{
+    background-color: #9C72E4; 
+}
+.recruiting{
+    background-color: #64C0A9; 
+}
+.mobile{
+    background-color: #F29E33; 
+}
+.website{
+    background-color: #D763A1;
+}
+.sales{
+    background-color: #B0C925; 
 }
