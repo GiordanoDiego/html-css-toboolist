@@ -1,0 +1,46 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol{
+    margin-left: 17px;
+    list-style: none; /*tolgo lo stile e i pallini dalla lista*/
+}
+
+/* GENERALE */
+
+
+/* HEADER */
+
+h1{
+    display: inline-block;
+}
+
+#container_header{
+    background-color: white;
+    padding: 5px 10px;
+    margin-bottom: 40px; 
+    /* aggiungo un margin bottom per distanziare l'header dalle task */
+}
+
+/* allineo il logo con il testo */
+header h1, header img{
+    vertical-align: middle;
+}
+
+
+/* MAIN */
+/* colore di sfondo, imposto come grandezza tutto lo schermo */
+#main_container{
+    background-color: #F6F8F9;
+    height: 100vh;
+}
+
+#task_container{
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+}
