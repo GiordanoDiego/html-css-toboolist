@@ -56,7 +56,21 @@ header h1, header img{
     padding: 10px;
     padding-left: 20px;
 }
+.main_button{
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: #878787;
+    border: 1px solid #878787;
+    background-color: white;
+}
 
+.special_button{
+    background-color: #45ABEB;
+    color: white;
+    border-color: #45ABEB;
+}
+
+/* parte degli span che simulano i bottoni
 .add{
     background-color: black;
     border-radius: 5px;
@@ -67,6 +81,7 @@ header h1, header img{
 .task{
     background-color: #45ABEB;
 }
+*/
 
 .section{
     background-color: white;
